@@ -21,6 +21,7 @@ axs[0].plot(t,x(t))
 axs[1].plot(t,y(t))
 axs[2].plot(t,z(t))
 
+#c)
 esant=np.arange(0,0.3,1/200)
 axs[0].stem(esant,x(esant))
 axs[1].stem(esant,y(esant))
